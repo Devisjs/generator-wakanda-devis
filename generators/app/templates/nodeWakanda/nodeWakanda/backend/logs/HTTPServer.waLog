@@ -1,0 +1,166 @@
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-16 13:37:10
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+83 192.168.225.44 192.168.225.44 "" "192.168.225.44:8081" "" "4D_HTTP_Client/1.1.0" - GET 192.168.225.44 200 /waf-reset-build-cache - /waf-reset-build-cache 2016-08-16 13:37:10 13:37:10 950
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-17 14:50:17
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+83 192.168.225.44 192.168.225.44 "" "192.168.225.44:8081" "" "4D_HTTP_Client/1.1.0" - GET 192.168.225.44 200 /waf-reset-build-cache - /waf-reset-build-cache 2016-08-17 14:50:17 14:50:17 850
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-20 09:57:45
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 09:57:45 09:57:45 941
+388 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 09:57:47 09:57:47 1621
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:00:00 10:00:00 7
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:00:00 10:00:00 34
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:00:01 10:00:01 3
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:00:01 10:00:01 8
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:00:02 10:00:02 5
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:00:02 10:00:02 7
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-20 10:21:14
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:14 10:21:14 290
+37 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 200 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:16 10:21:16 2488
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:24 10:21:24 4
+388 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:24 10:21:24 39
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:44 10:21:44 6
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:44 10:21:44 39
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:45 10:21:45 3
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:45 10:21:45 9
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:45 10:21:45 4
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:45 10:21:45 9
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:45 10:21:45 4
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:45 10:21:45 15
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:45 10:21:45 3
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:45 10:21:45 10
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:46 10:21:46 5
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:46 10:21:46 10
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:21:46 10:21:46 14
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:21:46 10:21:46 17
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:25:41 10:25:41 7
+404 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:25:41 10:25:41 17
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:25:57 10:25:57 5
+411 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:25:57 10:25:57 9
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:26:03 10:26:03 4
+37 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 200 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:03 10:26:03 3
+411 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:09 10:26:09 10
+382 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:17 10:26:17 9
+382 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:18 10:26:18 9
+411 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:26 10:26:26 8
+406 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:35 10:26:35 10
+383 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:44 10:26:44 15
+407 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:50 10:26:50 9
+382 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:54 10:26:54 10
+382 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:26:55 10:26:55 9
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:27:45 10:27:45 10
+394 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:27:45 10:27:45 23
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:27:55 10:27:55 10
+394 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:27:55 10:27:55 18
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:27:56 10:27:56 3
+394 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:27:56 10:27:56 22
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-20 10:32:30
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+0 127.0.0.1 127.0.0.1 "WASID=5920D73DC79D8C4BB0F05E2F357D2C5D" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /debug/eval/file - /debug/eval/file 2016-08-20 10:32:30 10:32:30 20
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:32:30 10:32:30 210
+408 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:32:30 10:32:30 108
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:32:37 10:32:37 3
+394 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:32:37 10:32:37 27
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:32:47 10:32:47 4
+394 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:32:47 10:32:47 12
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:33:00 10:33:00 4
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:33:00 10:33:00 10
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:11 10:35:11 4
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:11 10:35:11 12
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:14 10:35:14 3
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:14 10:35:14 9
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:15 10:35:15 3
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:15 10:35:15 39
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:15 10:35:15 8
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:15 10:35:15 10
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:15 10:35:15 3
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:15 10:35:15 9
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:15 10:35:15 4
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:15 10:35:15 7
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:15 10:35:15 4
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:15 10:35:15 11
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:15 10:35:15 3
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:15 10:35:15 8
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:16 10:35:16 5
+412 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:16 10:35:16 12
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:18 10:35:18 3
+388 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:18 10:35:18 55
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-20 10:35:28 10:35:28 4
+410 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-20 10:35:28 10:35:28 9
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-21 11:17:58
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-21 11:17:58 11:17:58 154
+406 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-21 11:17:58 11:17:58 120
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-21 11:18:15 11:18:15 5
+410 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-21 11:18:15 11:18:15 28
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-21 11:19:16
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-21 11:19:16 11:19:16 186
+394 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-21 11:19:16 11:19:16 208
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-21 11:19:21 11:19:21 6
+410 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-21 11:19:21 11:19:21 23
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-21 11:19:21 11:19:21 4
+410 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-21 11:19:21 11:19:21 7
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-21 11:19:22 11:19:22 4
+410 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-21 11:19:22 11:19:22 7
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-21 11:19:23 11:19:23 4
+410 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-21 11:19:23 11:19:23 11
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-22 13:41:10
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:41:10 13:41:10 205
+394 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-22 13:41:11 13:41:11 106
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-22 13:54:32
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:54:32 13:54:32 146
+37 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 200 /debug/eval/file - /debug/eval/file 2016-08-22 13:54:32 13:54:32 161
+37 127.0.0.1 127.0.0.1 "WASID=D58F681B5A58CE40B36CB5FDC5CA9462" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 200 /debug/eval/file - /debug/eval/file 2016-08-22 13:54:34 13:54:34 6
+37 127.0.0.1 127.0.0.1 "WASID=D58F681B5A58CE40B36CB5FDC5CA9462" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 200 /debug/eval/file - /debug/eval/file 2016-08-22 13:54:34 13:54:34 7
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:54:38 13:54:38 4
+398 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-22 13:54:38 13:54:38 36
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:54:48 13:54:48 8
+414 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-22 13:54:48 13:54:48 27
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:55:04 13:55:04 4
+414 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-22 13:55:04 13:55:04 14
+#Version: 1.0
+#Software: Wakanda/1.1.0 (Windows-i386)
+#Date: 2016-08-22 13:57:03
+#Remark: format ELF
+#Fields: BYTES_SENT CS-CDNS C-IP CS(COOKIE) CS(HOST) CS(REFERER) CS(USER-AGENT) USER METHOD CS-SIP SC-STATUS CS-URI CS-URI-QUERY CS-URI-STEM DATE TIME TIME-TAKEN
+0 127.0.0.1 127.0.0.1 "WASID=D58F681B5A58CE40B36CB5FDC5CA9462" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /debug/eval/file - /debug/eval/file 2016-08-22 13:57:03 13:57:03 1
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:57:05 13:57:05 213
+37 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 200 /debug/eval/file - /debug/eval/file 2016-08-22 13:57:05 13:57:05 7
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:57:19 13:57:19 4
+398 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-22 13:57:19 13:57:19 32
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:57:20 13:57:20 4
+414 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 500 /debug/eval/file - /debug/eval/file 2016-08-22 13:57:20 13:57:20 22
+37 127.0.0.1 127.0.0.1 "WASID=AB7811A43515A349920630D88D2789C7" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 200 /debug/eval/file - /debug/eval/file 2016-08-22 13:57:30 13:57:30 6
+20 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 401 /rest/$directory/loginByKey/ - /rest/$directory/loginByKey/ 2016-08-22 13:57:52 13:57:52 4
+37 127.0.0.1 127.0.0.1 "" "127.0.0.1:8081" "" "4D_HTTP_Client/Dev" - POST 127.0.0.1 200 /debug/eval/file - /debug/eval/file 2016-08-22 13:57:52 13:57:52 201
