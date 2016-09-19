@@ -16,6 +16,22 @@ Scaffold out a devis project
 <img src="http://gdurl.com/PeQp" width="360"/>
 
 ## Getting Started
+### What is Wakanda?
+<img src="https://wakanda.github.io/images/logo.png" width="480">
+
+Wakanda is a *W-RAD* (Web Rapid Application Development) as well as *M-RAD* (Mobile Rapid Application Development), designed for creating multi-channel applications for mobile, web and desktop.
+
+Wakanda App Factory consists of a stack of tools and technologies:
+
+-**Wakanda Server**
+
+Combines a relational object database with a JavaScript server engine.
+
+-**Wakanda Studio**
+
+Is a desktop IDE with WYSIWYG editors for designing the data model and prototyping the UI of the application. It provides building functionalities for mobile development (using Apache Cordova).
+Wakanda Application Framework (WAF)
+Consists of a data provider to communicate with the server and interface with front-end frameworks like AngularJS and Ionic.
 
 
 ### What is Yeoman?
