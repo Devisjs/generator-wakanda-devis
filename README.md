@@ -13,7 +13,7 @@ Scaffold out a devis project
                            ´   `  |° ´ Y `
 
 #
-<img src="http://gdurl.com/PeQp" width="360"/>
+<img src="https://d13yacurqjgara.cloudfront.net/users/506824/screenshots/1824942/d.gif" width="250"/>
 
 ## Getting Started
 ### What is Wakanda?
