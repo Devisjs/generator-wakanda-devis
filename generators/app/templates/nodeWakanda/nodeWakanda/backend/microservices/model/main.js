@@ -8,7 +8,7 @@ model.add({
     for (var attribute in args)
         options[attribute] = args[attribute];
 
-    done("initialization complete");
+    done(null, "initialization complete");
 });
 
 model.add({
@@ -40,7 +40,7 @@ function DELETE(args, done) {
         EntityToRemove.remove();
         fin=true;
     }
-    done(fin);
+    done(null, fin);
 }
 
 function PUT(args, done) {
@@ -60,7 +60,7 @@ function PUT(args, done) {
             fin = e;
         }
     }
-    done(fin);
+    done(null, fin);
 }
 
 function POST(args, done) {
@@ -81,28 +81,53 @@ function POST(args, done) {
         catch (e) {
             fin = e;
         }
-        done(fin);
+        done(null, fin);
     }
 }
 
 function GET(args, done) {
-    let fin;
+    let fin={};
+    let error=null;
     let dataClass = args.dataClass;
     let func = args.func;
     if (args.data) {
         let searchData;
-        if (!func) fin = ds[dataClass](args.data); //args.data must be json
+        if (!func)
+        {
+        	try{
+            	fin = ds[dataClass](args.data); //args.data must be json
+            }
+            catch(e)
+            {
+            	error=e;
+            }
+        } 
         else {
             if (func == "find") {
                 searchData = getDataFromJson(args.data);
             }
             else searchData = args.data;
-            fin = ds[dataClass][func](searchData); //example ds.dataClass.query("firstname ==:1","is")
+            try{
+            	fin = ds[dataClass][func](searchData); //example ds.dataClass.query("firstname ==:1","is")
+            }
+            catch(e)
+            {
+            	error=e;
+            }
+            
         }
     }
-    else
-        fin = ds[dataClass][func]();
-    done(fin);
+    else{
+    	try{
+            	fin = ds[dataClass][func]();
+            }
+            catch(e)
+            {
+            	error=e;
+            }
+    }
+       //console.log(error); 
+    done(error, fin);
 }
 
 function getDataFromJson(data) {

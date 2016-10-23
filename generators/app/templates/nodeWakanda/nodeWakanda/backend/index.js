@@ -1,34 +1,46 @@
 //Define variables
 let console = requireNode("console");
 let app = requireNode("express")(),
-  colors = requireNode("colors/safe"),
-  data = require('./app/wakanda_config');
+    colors = requireNode("colors/safe"),
+    data = require('./app/wakanda_config');
 let bodyParser = requireNode('body-parser'),
-  urlencodedParser = bodyParser.urlencoded({
-    extended: false
-  }),
-  devis = requireNode('devis'),
-  prefix = "/wakandas";
+    urlencodedParser = bodyParser.urlencoded({
+        extended: false
+    }),
+    devis = requireNode('devis'),
+    prefix = "/wakandas";
 
 devis.client({
-  id: 1,
-  path: '\\\\\.\\pipe\\mynamedpipe'
+    id: 1,
+    path: '/tmp/mysoscket.sock'
 }).setName("index");
 
 func = require("./app/route")({
-  devis: devis
+    devis: devis
+});
+devis.act({
+    clientId: 1,
+    role: "auth",
+    action: "login",
+    login: "ismailrei",
+    groupe: "test2"
+}, function(err,res) {
+
+    console.log(res);
 });
 
 devis.act({
-  clientId: 1,
-  role: "auth",
-  action: "login"
-}, {
-  login: "ismailrei",
-  password: "182290"
-}, function(res) {
-  console.log(res)
-});
+        clientId: 1,
+        role: "model",
+        action: "GET",
+        data: {ID:1},
+        dataClass:"Employee"
+    }, function(err,result) {
+    	 if(err) console.log(err);
+        console.log(result);
+    });
+
+
 //Initialisation of our model
 
 app.use(bodyParser.json());
@@ -43,8 +55,8 @@ app.post(prefix + '/:table', urlencodedParser, func.POST);
 
 
 app.listen({
-  type: 'http',
-  port: '3333',
-  host: '127.0.0.1',
-  protocol: 'http'
+    type: 'http',
+    port: '3131',
+    host: '127.0.0.1',
+    protocol: 'http'
 });

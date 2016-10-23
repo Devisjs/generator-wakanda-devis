@@ -11,7 +11,7 @@ auth.add({
 }, Logout);
 
 auth.add({
-    role:  "auth",
+    role: "auth",
     action: "currentUser"
 }, CurrentUser);
 
@@ -21,18 +21,29 @@ auth.add({
 }, CurrentUserBelongsTo);
 
 function Login(args, done) {
-    done(loginByPassword(args.login, args.password));
+    directory.createUserSession({
+        ID: generateUUID(),
+        name: args.login,
+        fullName:directory.user(args.login).fullName,
+
+        belongsTo: [args.groupe]
+    });
+
+    setCurrentSession(directory.currentSession.ID, false);
+	//loginByPassword(args.login,args.password, 60*60);
+	console.log(directory.currentUser);
+    done(null,"login successful");
 }
 
 function Logout(args, done) {
-    done(logout());
+    done(null, logout());
 }
 
 function CurrentUser(args, done) {
-    done(directory.currentUser);
+    done(null, directory.currentUser);
 }
 
 function CurrentUserBelongsTo(args, done) {
-    done(directory.currentUserBelongsTo(args.group));
+    done(null, directory.currentUserBelongsTo(args.group));
 }
-module.exports=auth;
+module.exports = auth;
